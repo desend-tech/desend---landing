@@ -9,55 +9,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
   </head>
-  <body>
+    <body>
     <nav class="header__banner navbar navbar-expand-lg navbar-light bg-light">
-      <div class="d-flex flex-row">
-        <div class="p-2 m-3"><img style="height: 50px; width: 50px;" src="https://cdn-icons-png.flaticon.com/512/6387/6387705.png" alt=""></div>
-        <div class="p-2 mt-4"><a class="navbar-brand" href="#"><h2>DeSend</h2></a></div>
+      <div class="d-flex flex-row mx-5 mt-4">
+        <div class="p2-2"><img style="height: 50px; width: 50px;" src="https://cdn-icons-png.flaticon.com/512/6387/6387705.png" alt=""></div>
+        <div class="p-2"><a class="navbar-brand" href="#"><h2>desend</h2></a></div>
       </div>
-      <div class="d-flex flex-row mr-5">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+      <div class="d-flex flex-row m-5 w-100">
+        <div class="collapse navbar-collapse d-flex justify-content-end mt-2" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-around">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+              <a class="nav-link px-5" href="#"><h5>Home</h5> <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+              <a class="nav-link px-5" href="#"><h5>About</h5></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link px-5" href="#"><h5>Community</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#"><h5>FAQs</h5></a>            
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#"><h5>Resources</h5></a>            
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container display-grid-">
+    <div class="container display-grid">
       <div class="row">
         <div class="col p-4">
           <div class="image p-3"><img style="height: 480px; width: 100%;" src="https://cdni.iconscout.com/illustration/premium/thumb/cryptocurrency-market-3216964-2738779.png" alt=""></div>
         </div>
         <div class="col p-4">
           <p class="description p-3 display-5 mt-5">
-            DeSend is a virtual reality NFT gallery that uses DeSo currency in order for users to share and exchange their NFTs. 
+            A payment system for the metaverse built on top of the DeSo blockchain 
           </p>
           <div class="buttons d-flex justify-content-start mt-4">
-            <button type="button" class="btn btn-primary px-4 pt-2 m-3" style="background-color: #007cff;"><h5>Documentation</h5></button>
-            <button type="button" class="btn btn-primary px-4 pt-2 m-3" style="background-color: #007cff;"><h5>Demo</h5></button>
+            <a class="btn btn-primary px-4 pt-2 m-3" href="#" role="button" style="background-color: #007cff;"><h5>Documentation</h5></a>
+            <a class="btn btn-primary px-4 pt-2 m-3" href="https://slo-hacks-2022.devpost.com/" target="_blank"role="button" style="background-color: #007cff;"><h5>Demo</h5></a>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container display-grid mt-5">
+       <div class="row">
+          <div class="col p-4 d-flex align-content-center">
+            <p class="p-4 display-6" style="text-align: right;">A global market with convenient transfer of cryptocurrency through VR</p>
+          </div>
+          <div class="col p-4">
+            <img  style="height:  480px; width: 100%; border-radius: 600px;"src="https://whiplash.com/wp-content/uploads/cryptocurrency-min.jpg" alt="">
+          </div>
+       </div>
+    </div>
+
+    <div class="container display-grid mt-5">
+        <ul class="mt-5" style="display: grid; grid-template-columns: auto auto auto; text-align: center;">
+          <button class="btn btn-primary p-5 m-3" style=" border-radius: 2rem;">
+            <h1 class="">100%</h1>
+            <h3 class="">Open Source</h3>
+          </button>
+          <button class="btn btn-primary p-5 m-3" style=" border-radius: 2rem;">
+            <h1 class="px-5">65%</h1>
+            <h4>Accessible to the World</h4>
+          </button>
+          <button class="btn btn-primary p-5 m-3" style=" border-radius: 2rem;">
+            <h1>300M</h1>
+            <h4>Active Users in the Market</h4>
+          </button>
+        </ul>
+    </div>
+
+    <div class="credits p-6 d-flex justify-content-center mt-5" style="background: #007cff; color: #fff;">
+      <h4 class="p-4"> © 2022 desend</h4>
     </div>
     
     <script src="" async defer></script>
